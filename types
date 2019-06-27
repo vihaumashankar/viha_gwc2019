@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="websitecss.css">
+
+<html>
+
+	<head>
+
+    <title>Wind Works</title>
+    <link rel="stylesheet" href="websitecss.css">
+
+  </head>
+
+  <body>
+
+    <script src="websitejs.js"></script>
+    <body style="background-color:Gainsboro;">
+    <h1>Wind Works: An Exploration of Turbine Designs</h1>
+    <h2>Viha Umashankar</h2>
+
+
+    <div class="tab"><center>
+     <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+     <button class="tablinks" onclick="openCity(event, 'Function')">How Turbines Work</button>
+     <button class="tablinks" onclick="openCity(event, 'History')">History of Turbines</button>
+     <button class="tablinks" onclick="openCity(event, 'Types')">Types of Turbines</button>
+     <button class="tablinks" onclick="openCity(event, 'Creation')"><a href="creation.html">Creating New Turbines</a></button>
+   </center></div>
+
+	<div id="gradient"></div>
